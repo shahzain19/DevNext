@@ -56,8 +56,7 @@ export default function CreateProject() {
                 budget_min: parseInt(formData.budget_min),
                 budget_max: parseInt(formData.budget_max),
                 deadline: new Date(formData.deadline).toISOString(),
-                stack: formData.stack.split(',').map(s => s.trim()).filter(Boolean),
-                status: 'open'
+                stack: formData.stack.split(',').map(s => s.trim()).filter(Boolean)
             });
             navigate('/dashboard/projects');
         } catch (error) {
