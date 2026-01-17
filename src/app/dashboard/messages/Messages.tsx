@@ -1,8 +1,7 @@
 import { useEffect, useState, useRef } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Send, MessageSquare, MoreVertical, Image as ImageIcon, Paperclip, ChevronLeft, ChevronRight, Menu } from 'lucide-react';
+import { Send, MessageSquare, MoreVertical, Image as ImageIcon, ChevronLeft,Menu } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
-import Card from '../../../components/ui/Card';
 import Button from '../../../components/ui/Button';
 import { useAuthStore } from '../../../store/useAuthStore';
 import { getConversations, getConversationMessages, sendMessage, subscribeToConversation, uploadMessageAttachment } from '../../../lib/db';

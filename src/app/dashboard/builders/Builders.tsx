@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Search, MapPin, DollarSign, Star } from 'lucide-react';
+import { Search, MapPin, DollarSign } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Card from '../../../components/ui/Card';
 import Button from '../../../components/ui/Button';
