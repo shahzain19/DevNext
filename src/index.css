@@ -66,11 +66,7 @@
    🌐 GLOBAL STYLES
    =============================== */
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
+
 
 html {
   scroll-behavior: smooth;
@@ -91,7 +87,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Nunito Sans', sans-serif;
+  font-family: 'Inter', sans-serif;
   letter-spacing: -0.01em;
   font-weight: 700;
   color: var(--text-primary);
