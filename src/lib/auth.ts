@@ -1,5 +1,4 @@
 import { supabase } from './supabase';
-import type { UserRole } from './supabase';
 
 export interface SignUpData {
     email: string;

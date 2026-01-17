@@ -1,10 +1,9 @@
 import { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { ArrowLeft, DollarSign, Calendar, CheckCircle, XCircle, Send } from 'lucide-react';
+import { ArrowLeft, DollarSign, Calendar, Send } from 'lucide-react';
 import Card from '../../../components/ui/Card';
 import Button from '../../../components/ui/Button';
 import Badge from '../../../components/ui/Badge';
-import Input from '../../../components/ui/Input';
 import { getProject, createApplication, getApplicationsByProject, updateApplicationStatus } from '../../../lib/db';
 import { useAuthStore } from '../../../store/useAuthStore';
 import type { Project, Application, Profile } from '../../../lib/supabase';
